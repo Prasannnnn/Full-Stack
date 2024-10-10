@@ -56,3 +56,47 @@ var x = 10;
 console.log(y)
 Output:
 20(accessible outsie the block)
+
+var price = 100
+var product = "iphone 15"
+console.log(product)
+var total=price-tax
+console.log(total)
+
+Declare a Variable named "FruitName"
+Declare a Variable named "Count"
+Declare a Variable named "Price" and set it to the price of the FruitName
+Declare a variable named "total" and calculate it by multiplying the "count"
+by the "Price"
+Print the name of the Fruit
+print the total price of the Fruit
+
+var fruitname = "Apple"
+var count = 5
+var price = 10
+var total = count*price
+console.log(total)
+
+
+Javascript keywords
+
+var
+for
+if
+let
+const
+switch
+function
+return
+try
+
+
+javascript comments
+
+javascript comments can be used to explain
+
+
+
+//ooty Apple
+var fruit ="Apple"
+console.log(fruit)

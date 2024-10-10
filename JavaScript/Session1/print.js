@@ -1,1 +1,6 @@
-console.log("hello world")
+
+/*
+
+hello macha
+ennada panra
+*/
