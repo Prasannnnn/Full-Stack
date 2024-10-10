@@ -95,8 +95,123 @@ javascript comments
 
 javascript comments can be used to explain
 
+Single Comments
 
 
 //ooty Apple
 var fruit ="Apple"
 console.log(fruit)
+
+Multiline Comments
+
+/*
+
+hello macha
+ennada panra
+*/
+
+
+Javascript Operators
+
+Javascript provides various operators that perform operations on values
+or variables . these operators can be categorized into different types
+based on their functionality
+
+Operator types                     Operator
+Arithmetic Operator                "+","-","*","/","%","**"
+Assignment Operator                "=","+=","*=","/=","%="
+Comparison Operator                "=="."/=","==","!==",">",">=","<="
+Logical Operator                   "&&"
+Bitwise Operator                   "&"
+String Operator                    "+"
+Type Operator                      "?"
+Type operators                     "typeof","instanceof"
+Unary Operator                     "+","-","!","-","typeof",delete,"void"
+
+Increment Operator
+the Increment Operator(++) is an Arithmetic operator in javascript that is used to increment the value
+of a variable by 1. it can be used in two different ways
+
+Pre Increment
+let x= 5
+let y =++x
+//pre Increment: X is incremented to 6 and then assigned to y
+console.log(x)//Output:6
+console.log(y)//Output:6
+
+Javascript datatypes
+In programming, a data type is a classification or categorization of a value that determines the 
+kind of operations that can be performed on it and the storage format used to represent it in memory.
+Each programming language has its own set of datatypes and understanding them is essential for 
+working with variables and performing operations on data
+
+var a= 10
+var b = "Apple"
+console.log(typeof(a))
+console.log(typeof(b))
+
+Primitive datatype
+Number              console.log(typeof(10))
+String              console.log(typeof("Apple"))
+Boolean             console.log(typeof(true/false))
+Null                console.log(typeof(null))
+Undefined           console.log(typeof(a))
+
+Non Primitive datatype
+Object
+Array
+
+Javascript functions
+
+Javascript functions is a block of code designed to perform a particular task.
+A Javascript function is executed when something invokes it(calls it)
+
+Syntax:
+function <function name>(){ }
+
+function add(){
+     console.log("Hello World")
+}
+add()
+
+
+
+
+
+
+Javascript Parameters
+
+In Javascript , the term "Parameters" typically refers to the variables or placeholders that you 
+define when declaring a function. these parameters serve as input to the function and allow you to 
+pass data into the function when you call it.
+
+function add(a,b)
+{
+     console.log(a+b)
+}
+
+add(10,20)
+
+
+Exercise
+Create a function called area()
+this function should get 2 values are parameters (length,breadth)
+pass two values to the funciton and print the result
+
+Return type
+
+n javascript, the return keywords is used within a function to specify the value that the 
+function should produce as its result or return to the caller. when a function is executed and
+encounters a return Statement, it immediately stops executing and returns the specified value to the
+calling code. Heres how the return keyword works:
+
+function name(){
+     return "Prasanna"
+}
+var a = name()
+console.log(a)
+
+Exercise
+
+create a function called add which should take 2 parameter a and b
+and it should return the addition of two variables
