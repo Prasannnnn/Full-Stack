@@ -1,0 +1,58 @@
+What is Javascript
+Javascript is the worlds most popular programming language 
+javascript is easy to learn
+
+javascript is used to create interactive and dynamic web pages.
+it is responsible for adding functionality to a website and allows for user 
+interactive with website content.
+
+
+
+variables
+datatypes
+Operators
+
+
+Javascript variables
+
+var:
+     var a = 20
+     console.log(a)
+
+     var is an global scope
+
+let
+     let a = 20
+     console.log(a)
+
+     {
+          let a = 10
+     }
+     console.log(a)
+     ###
+     a is not defined
+
+     let is an local scope
+
+const
+     const a = 20
+     console.log(a)
+
+     const --> is a constant variables
+
+     constant a = 10
+     a = 20
+     console.log(a)
+
+variables are containers for storing information or datatypes
+javascript variables can be declared in 4 ways
+
+using Var keyword - function scope or global scope
+var x = 10;
+{
+     var y = 20;
+
+}
+console.log(y)
+Output:
+20(accessible outsie the block)
