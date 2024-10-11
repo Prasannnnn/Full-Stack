@@ -34,8 +34,32 @@ ennada panra
 // }
 // favorite()
 
-function na(){
-     return "Prasanna"
+// function na(){
+//      return "Prasanna"
+// }
+// var a = na()
+// console.log(a)
+
+
+// for (count=1;count<=10;count=count+1){
+//      console.log(count)
+// }
+
+// for (count=1;count<=10;count=count+2){
+//      console.log(count)
+// }
+
+
+// for (count=10;count>=1;count=count-1){
+//      console.log(count)
+// }
+
+// for (count=1;count<=50;count=count){
+//      console.log(count)
+// }
+
+for (count=1;count<=10;count++){
+     if (count%2 == 0){
+          console.log(count)
+     }
 }
-var a = na()
-console.log(a)
