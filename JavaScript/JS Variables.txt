@@ -215,3 +215,83 @@ Exercise
 
 create a function called add which should take 2 parameter a and b
 and it should return the addition of two variables
+
+
+Javascript control flow
+
+conditional Statement
+
+if else
+
+Syntax
+
+if(condition){
+     //code to be executed if the condition is true
+}
+else{
+     //code to be executed if the condition is false
+}
+
+if(true){
+     console.log("if its working")
+}
+else{
+     console.log("else is working")
+}
+
+Exercise
+1.is it raining outside?
+-if the answer is "yes", print"Take an umberalla".
+-if the answeer is "no", print"Enjoy the sunshine"/
+
+2.Did you finish your homework?
+-if the answer is "yes", print"Great job".
+-if the answeer is "no", print"Finish your homework before playing"
+
+3.Are there any cookies left?
+-if the answer is "yes", print"Would you like a cookie".
+-if the answeer is "no", print"Time to bake more cookies"
+
+
+logical AND 
+console.log(true&&true);//true
+console.log(true&&false);//false
+
+logical OR 
+console.log(true||false);//true
+
+logical NOT 
+console.log(!true);//false
+
+
+1. what is the color of the traffic light
+if the answer is "red", print"stop"
+if the answer is "yellow", print "Get Ready"
+if the answer is "green", print"Go".
+
+
+var color = "red"
+
+if(color == "red")
+{
+     console.log("stop")
+}
+
+
+2.What is the season of the year?
+if the answer is "spring" print "Enjoy the blooming flower".
+if the answer is "summer", print "Have fun in the sun".
+if the answer is "autumn" or "fall", print "Admire the colorful leaves."
+if the answer is "winter" print "Bundle up and stay warm."
+
+
+
+
+Javascript for loop
+
+in javascript, a for loop is a control flow statement used to repeatedly execute a block of code 
+on a specified condition. the general syntax of a for loop in javascript is as follows:
+
+for (initialization;condition;iteration){
+     code to be executed in each iteration
+}
