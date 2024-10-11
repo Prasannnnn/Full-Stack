@@ -295,3 +295,24 @@ on a specified condition. the general syntax of a for loop in javascript is as f
 for (initialization;condition;iteration){
      code to be executed in each iteration
 }
+
+for (count=1;count<=5;count=count+1){
+     console.log("Prasanna")
+}
+
+Javascript DOM Manipulation
+
+What is DOM
+
+DOM Document Object Model
+
+what is DOM Manipulation
+DOM manipulation refers to the process of programmatically modifying the contents
+structure, or style of a web pages document object Model
+using scripting languages like javascript.
+
+Developers can add, remove, or modify elements, attributes and text withing the DOM
+to create dynamic and interactive web applications.
+
+this allows web pages to respond to user interactiions, update content 
+dynamically and provide a more engaging user experience.
