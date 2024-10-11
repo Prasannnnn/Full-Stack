@@ -1,0 +1,39 @@
+<html>
+     <head>
+          <title>
+               Calculator
+          </title>
+     </head>
+     <body>
+          <label for="Number">Number 1</label>
+          <input type="text" id="num1" placeholder="Enter your Number 1" value="7">
+          <br><br>
+          <label for="Number">Number 2</label>
+          <input type="text" id="num2" placeholder="Enter your Number 2" value="4">
+          <br><br>
+          <button id="calculate">Total</button>
+
+          <p id="result">Result: </p>
+
+          <script>
+               // Getting references to the input fields, result paragraph, and button
+               var box1 = document.getElementById("num1");
+               var box2 = document.getElementById("num2");
+               var result = document.getElementById("result");
+               var button = document.getElementById("calculate");
+
+               // Adding event listener to the button
+               button.addEventListener("click", function() {
+                    // Get values from input boxes and convert them to numbers
+                    var box1value = parseFloat(document.getElementById("num1").value);
+                    var box2value = parseFloat(document.getElementById("num2").value);
+
+                    // Calculate the sum
+                    var total = box1value + box2value;
+
+                    // Display the result in the result paragraph
+                    document.getElementById("result").textContent = "Result: " + total;
+               });
+          </script>
+     </body>
+</html>
