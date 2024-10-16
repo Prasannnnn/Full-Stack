@@ -1,0 +1,104 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Navigation Bar Styling */
+nav{
+     background-color: black;
+     color: white;
+     padding: 20px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+
+/* Navigation Links Styling */
+ul {
+     display: flex;
+     gap: 20px;
+}
+
+li {
+     list-style: none;
+}
+
+li a {
+     color: grey;
+     text-decoration: none;
+}
+
+li:hover a {
+     color: white;
+}
+
+/* Section Header Styling */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    text-align: center;
+    margin: 40px 0 20px;
+}
+
+/* About Section Styling */
+.about {
+     text-align: center;
+     padding: 40px;
+     margin-top: 20px;
+}
+
+/* Projects Section Styling */
+.Products {
+     text-align: center;
+     padding: 40px;
+}
+
+.box {
+     border: 1px solid black;
+     padding: 20px;
+     width: 250px;
+     display: inline-block;
+     margin: 20px;
+     vertical-align: top;
+}
+
+.box img {
+     width: 100px;
+     height: 100px;
+     display: block;
+     margin: 0 auto 10px;
+}
+
+/* Contact Section Styling */
+.contact {
+     text-align: center;
+     background-color: black;
+     color: white;
+     padding: 40px;
+}
+
+.contact p {
+    margin: 10px 0;
+}
+
+/* Footer Note Styling */
+.contact p.footer-note {
+    margin-top: 30px;
+    font-size: 10px;
+}
+
+/* Anchor Navigation Padding Adjustment */
+#projects, #skills, #contact {
+     padding-top: 60px;
+     margin-top: -60px;
+}
