@@ -1,4 +1,4 @@
-*{
+     *{
      margin: 0;
      padding: 0;
 }
@@ -17,10 +17,10 @@ ul{
      margin-left: 70%;
 }
 li{
-     color: grey;
+     color: white;
 }
 li:hover{
-     color: white;
+     color: gold;
 }
 input{
      width: 60%;
