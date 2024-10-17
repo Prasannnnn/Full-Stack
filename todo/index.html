@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>To-Do List</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    #todoList {
+      list-style-type: none;
+      padding: 0;
+    }
+    li {
+      padding: 8px;
+      background-color: #f3f3f3;
+      margin-bottom: 5px;
+      display: flex;
+      justify-content: space-between;
+    }
+    button {
+      background-color: red;
+      color: white;
+      border: none;
+      cursor: pointer;
+      padding: 5px;
+    }
+  </style>
+</head>
+<body>
+  <h2>To-Do List</h2>
+
+  <label for="task">New Task:</label>
+  <input type="text" id="task" placeholder="Enter a new task">
+  <button onclick="addTask()">Add Task</button>
+
+  <ul id="todoList"></ul>
+
+  <script>
+    function addTask() {
+      // Get the task input
+      let taskInput = document.getElementById("task").value;
+      
+      // Check if input is not empty
+      if (taskInput === "") {
+        alert("Please enter a task");
+        return;
+      }
+
+      // Create a new list item
+      let li = document.createElement("li");
+      li.innerHTML = taskInput + ' <button onclick="deleteTask(this)">Delete</button>';
+
+      // Append the new task to the list
+      document.getElementById("todoList").appendChild(li);
+
+      // Clear the input field after adding the task
+      document.getElementById("task").value = "";
+    }
+
+    function deleteTask(button) {
+      // Remove the task from the list
+      let li = button.parentElement;
+      document.getElementById("todoList").removeChild(li);
+    }
+  </script>
+</body>
+</html>
